@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header i {
+  font-size: 25px;
+  display: none;
+}
+@media (max-width: 920px) {
+  .header .nav_links {
+    display: none;
+  }
+  .header i {
+    display: block;
+  }
+}
+@media (max-width: 580px) {
+  .br {
+    display: none;
+  }
+}
